@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-int i;
-for (i = 97; i < 123; i++)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (i != 101 && i != 113)
+if (letter != 'e' && letter != 'q')
 {
-putchar(i);
+putchar(letter);
 }
 }
 putchar('\n');
-return (0);
+return 0;
 }
