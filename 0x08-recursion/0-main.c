@@ -1,12 +1,12 @@
-#include "main.h"
+void _print_rev_recursion(char *s);
 
 /**
- * main - check the code
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
-    _puts_recursion("Puts with recursion");
-    return (0);
+    _print_rev_recursion("\nFirst, solve the problem. Then, write the code");
+    return 0;
 }
