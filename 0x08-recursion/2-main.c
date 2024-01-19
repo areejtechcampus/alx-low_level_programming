@@ -1,14 +1,16 @@
+#include "main.h"
 #include <stdio.h>
 
-void _print_rev_recursion(char *s);
-
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
-    _print_rev_recursion("");
+    int n;
+
+    n = _strlen_recursion("Corbin Coleman");
+    printf("%d\n", n);
     return (0);
 }
