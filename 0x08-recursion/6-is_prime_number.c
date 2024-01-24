@@ -11,11 +11,11 @@ int is_prime_number(int n)
 {
 if (n <= 1)
 return (0);
-return is_prime_number_recursive(n, 2);
+return (is_prime_number_recursive(n, 2));
 }
 
 /**
- * is_prime_number_recursive - recursive helper function to check if a number is prime
+ * is_prime_number_recursive - recursive function to check if a number is prime
  * @n: the number to check
  * @i: current divisor being checked
  * Return: 1 if n is prime, 0 otherwise
@@ -26,5 +26,5 @@ if (i * i > n)
 return (1);
 if (n % i == 0)
 return (0);
-return is_prime_number_recursive(n, i + 1);
+return (is_prime_number_recursive(n, i + 1));
 }
