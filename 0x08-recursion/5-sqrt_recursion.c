@@ -11,7 +11,7 @@ return (helper(n, i + 1));
  * _sqrt_recursion - returns the natural square root of a number
  *
  * @n: the number to calculate the square root of
- * helper: funcation take two parameters: n,i
+ * helper - funcation take two parameters: n,i
  * Return: the square root of n or -1 if it does not have a square root
  */
 int _sqrt_recursion(int n)
